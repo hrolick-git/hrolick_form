@@ -36,8 +36,8 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "node ./scripts/start-non-split.js",
-    "build": "node ./scripts/build-non-split.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
