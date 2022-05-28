@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap');
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+$grid-breakpoints: (
+        xxs: 0,
+        mob: 360px,
+        xs: 425px,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1400px,
+        xxl: 2048px
+);
+
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #ff4f81;
+$color-secondary: #ff4f81;
+$color-dark-blue-design: #697d99;
+$color-dark-blue: #697d99;
+$header-height: 151px;
+
+$body-bg: $color-dark-blue;
+$body-color: $color-white;
+
+$link-color: inherit;
+
+$max-width: 1920px;
+$fieldHeightMin: 44px;
+$fieldHeightMax: 54px;
+
+$font-family-base: "ClearSans", sans-serif;
+$font-family-title: "Exo 2", sans-serif;
+
+$gradient-red: linear-gradient(
+                90deg,
+                rgba($color-primary, 0.2) 0%,
+                rgba($color-primary, 0) 75%
+);
+
+$gradient-red-min: linear-gradient(
+                -90deg,
+                rgba($color-primary, 0.2) 0%,
+                rgba($color-primary, 0) 75%
+);
+
+$gradient-red-0: linear-gradient(
+                0,
+                rgba($color-primary, 0.2) 0%,
+                rgba($color-primary, 0) 75%
+);
+
+$gradient-red-180: linear-gradient(
+                180deg,
+                rgba($color-primary, 0.2) 0%,
+                rgba($color-primary, 0) 75%
+);
+
+$gradient-90: linear-gradient(
+                90deg,
+                $color-dark-blue 0%,
+                rgba($color-dark-blue, 0) 100%
+);
+
+$gradient-90-min: linear-gradient(
+                -90deg,
+                $color-dark-blue 0%,
+                rgba($color-dark-blue, 0) 100%
+);
+
+$gradient-0: linear-gradient(
+                0,
+                $color-dark-blue 0%,
+                rgba($color-dark-blue, 0) 100%
+);
+
+$gradient-180: linear-gradient(
+                180deg,
+                $color-dark-blue 0%,
+                rgba($color-dark-blue, 0) 100%
+);
+
+$gradient-history: linear-gradient(
+                0deg,
+                rgba($color-dark-blue, 0.7) 0%,
+                rgba($color-dark-blue, 0) 100%
+);
+
+$image-drop-shadow: drop-shadow(0 30px 200px rgba($color-primary, 0.5))
+drop-shadow(0 30px 200px rgba($color-primary, 0.5));
